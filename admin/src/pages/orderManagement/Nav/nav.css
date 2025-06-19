@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #C095E4;
+    color: #e7e8e2;
+    height: 100vh; /* Full height for vertical navigation */
+    width: 250px; /* Width for the navigation */
+    position: fixed; /* Fix the navigation to the left side */
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.navbar.closed {
+    transform: translateX(-100%); /* Hide the navbar when closed */
+}
+
+.toggle-button {
+    background: transparent;
+    border: none;
+    color: #f8f6f7;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: -40px; /* Positioning for the toggle button */
+    cursor: pointer;
+    transition: right 0.3s ease, color 0.3s ease;
+}
+
+.toggle-button:hover {
+    color: #e7e8e2; /* Color change on hover */
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    padding: 20px;
+}
+
+.nav-logo {
+    color: #e7e8e2;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 15px 0;
+}
+
+.nav-link {
+    color: #e7e8e2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #683691; /* Highlight color */
+}

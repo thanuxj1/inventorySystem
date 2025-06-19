@@ -1,0 +1,72 @@
+/* updateUser.css */
+
+.update-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Reduced padding */
+  background: linear-gradient(to right, #f9f0ff, #eceff1); /* Soft gradient background */
+  min-height: 100vh; /* Full height for container */
+}
+
+.form-title {
+  font-size: 24px; /* Slightly smaller font size for the title */
+  color: #333; /* Dark grey color for title */
+  margin-bottom: 15px; /* Reduced margin */
+  font-family: 'Aesthetic Font', sans-serif; /* Replace with your desired font */
+  text-align: center; /* Center align the title */
+}
+
+.update-user-form {
+  background: #ffffff; /* White background for form */
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px; /* Max width for a smaller form */
+  transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.update-user-form:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.update-user-form label {
+  display: block;
+  font-size: 14px; /* Slightly smaller font size for labels */
+  color: #555; /* Medium grey color for labels */
+  margin-bottom: 4px; /* Reduced spacing below labels */
+}
+
+.update-user-form input {
+  width: 100%;
+  padding: 8px; /* Reduced padding for inputs */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  margin-bottom: 12px; /* Spacing between inputs */
+  font-size: 14px; /* Consistent font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.update-user-form input:focus {
+  border-color: #ff59c7; /* Highlight border color */
+  box-shadow: 0 0 5px rgba(255, 89, 199, 0.5); /* Soft glow effect */
+  outline: none; /* Remove default outline */
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px; /* Adjusted padding for buttons */
+  background-color: #ff59c7; /* Stylish color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Smaller button font size */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Transitions for hover effect */
+}
+
+.submit-button:hover {
+  background-color: #ff76d8; /* Lighter shade on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}

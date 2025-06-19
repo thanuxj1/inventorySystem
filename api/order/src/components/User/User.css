@@ -1,0 +1,39 @@
+/* Table row styling */
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Update button styling */
+.update-button {
+    background-color: #8e6da9; /* Turquoise */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #c6a0e7; /* Slightly darker turquoise */
+}
+
+/* Delete button styling */
+.delete-button {
+    background-color: #34263f; /* Dark teal */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px; /* Spacing between buttons */
+}
+
+.delete-button:hover {
+    background-color: #5f4872; /* Slightly darker teal */
+}

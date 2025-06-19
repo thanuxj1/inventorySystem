@@ -1,0 +1,143 @@
+/* Compact Filter Styling */
+.compact-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .users-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center; /* Centers horizontally */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .compact-input, .compact-select {
+    padding: 5px;
+    font-size: 14px;
+    height: 30px;
+  }
+  
+  .compact-select {
+    width: 150px;
+  }
+  
+  .compact-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .compact-button:hover {
+    background-color: #45a049;
+  }
+  /* Container for users list */
+.users-container {
+    background-color: #eeeeee; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search bar styling */
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #dddddd; /* Light gray border */
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #B984DF ; /* Dark teal */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #C095E4 ; /* Slightly darker teal */
+}
+
+/* Table styling */
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users-table th, .users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd; /* Light gray border */
+}
+
+.users-table th {
+    background-color: #B984DF ; /* Turquoise */
+    color: white;
+}
+
+.users-table tbody tr:hover {
+    background-color: #dddddd; /* Light gray */
+}
+
+/* Actions buttons */
+.actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions .print-button {
+    background-color: #B984DF ; /* Dark teal */
+    color: white;
+}
+
+.actions .print-button:hover {
+    background-color: #C095E4 ; /* Slightly darker teal */
+}
+
+.actions .send-button {
+    background-color: #B984DF ; /* Turquoise */
+    color: white;
+}
+
+.actions .send-button:hover {
+    background-color: #C095E4 ; /* Slightly darker turquoise */
+}
+/* Simple action button styling */
+.action-button {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B984DF; /* Darker pink */
+    color: #34263f; /* Black text */
+    padding: 10px 15px; /* Comfortable padding */
+    border: none;
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect */
+.action-button:hover {
+    background-color: #C095E4; /* Lighter pink on hover */
+}
